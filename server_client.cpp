@@ -34,7 +34,7 @@ int main(int argc, char **argv)
       std::string resp;
       resp = Location_Check_srv.response.answer;
 
-      std::cout << "It is sunny " << resp << std::endl;
+      std::cout << "Location is ... " << resp << std::endl;
     }
     else
     {
