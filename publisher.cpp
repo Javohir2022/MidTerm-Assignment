@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 {
     ros::init(argc, argv, "ROS_Smart_Mobility");
     ros::NodeHandle node_handle;
-    ros::Publisher hello_world_pub = node_handle.advertise<std_msgs::String>("ROS_Smart_Mobility", 100);
+    ros::Publisher ROS_Smart_Mobility = node_handle.advertise<std_msgs::String>("ROS_Smart_Mobility", 100);
     ros::Rate pub_rate(50);
     ROS_INFO("Publisher Node Started");
     int counter = 0;
