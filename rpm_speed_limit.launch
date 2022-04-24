@@ -1,0 +1,7 @@
+<launch>
+  <param name="wheel_radius" value="0.125" type="double"/>
+
+  <node name="rpm_publisher_node1" pkg="MidTerm-Assignment" type="rpm_pub" />
+
+  <node name="speed_limit_node1" pkg="MidTerm-Assignment" type="speed_limit" />
+</launch>
